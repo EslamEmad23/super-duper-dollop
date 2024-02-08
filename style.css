@@ -1,1 +1,32 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* variables */
+:root {
+    /* Blog Font */
+    --b-font: font-family: 'Rubik', sans-serif;
+    /* Blog Colors */
+    --white: #ffffffff;
+    --seasalt: #f8f8f8ff;
+    --gray: #e8e8e8;
+    --davys-gray: #50514fff;
+    --cerulean: #247ba0ff;
+   /* Blog Padding */
+   --b-pad: 2rem;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  background-color: var(--gray);
+  font-family: var(--b-font);
+}
+.container {
+  padding: 0 var(--b-pad);
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
